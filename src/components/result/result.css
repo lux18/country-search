@@ -1,0 +1,90 @@
+p{
+    margin: 0 !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------------------- */
+body {
+   min-height: 101vh;
+  }
+/* -------------------------------------------------------------------------------------- */
+
+.countryTag{
+padding: 6px 20px;
+background-color: #8DD4CC;
+border-radius: 20px;
+color: white;
+}
+
+.countryTagContainer{
+  position: relative;
+
+}
+
+.countryTagWrap{
+  width: 500px ;
+}
+
+.countryTagWrap {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+  .countryTagContainer {
+    overflow-x: scroll;
+    white-space: nowrap;
+}}
+
+
+
+/* -------------------------------------------------------------------------------------- */
+
+.dataLatlong{
+  font-size: 46px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .dataLatlong{
+    font-size: 36px;
+  }
+}
+
+
+
+.cardLatlong{
+  height: 180px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border: solid 1px rgba(0, 0, 0, 0.05) !important;
+}
+
+
+.globeLatlong{
+  position: absolute;
+  width: 200px;
+  right: 0px;
+  bottom: -50%;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.callingCode{
+  height: 180px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+border: none !important;
+}

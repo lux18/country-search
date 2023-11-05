@@ -1,0 +1,67 @@
+p{
+    margin: 0 !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------------------- */
+.homeBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .sectionHome1{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+
+  }
+/* -------------------------------------------------------------------------------------- */
+.suggestResults {
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    margin: 3px;
+    width: 20rem;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: none;
+    position: absolute;
+    top: 60px;
+  }
+
+  .suggestResults.active {
+    display: block;
+    margin: 0;
+  }
+
+  .resultCountry:hover{
+    background-color: #ececec;
+    border-radius: 8px;
+
+  }
+/* -------------------------------------------------------------------------------------- */
+  .ui.input {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .ui.input > input{
+    border-radius: 10px !important;
+
+  }
+  .ui.input > input:focus {
+    border: solid 1px #8362F2 !important;
+
+  }
+  .ui.input > i.search.icon {
+    color: #8362F2 !important;
+  }
+/* -------------------------------------------------------------------------------------- */
