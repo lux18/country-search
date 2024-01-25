@@ -5,7 +5,6 @@
 2. Salin repositori proyek ini ke komputer Anda
 
 3. Masuk ke direktori proyek
-   cd orderfaz_test
 
 4. Instal semua dependensi dengan perintah:
    npm install
